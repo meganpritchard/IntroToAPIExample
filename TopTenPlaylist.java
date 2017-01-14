@@ -125,7 +125,7 @@ public class TopTenPlaylist {
 	// This creates a TopTenPlaylist based on the input the user gave us.
 	public static String insertPlaylist(String query) throws IOException {
 		// This code constructs the playlist resource that is being inserted.
-		// It defines the playlist's title, description, and privacy status.
+		// It sets the playlist's title, description, and privacy status.
 		PlaylistSnippet playlistSnippet = new PlaylistSnippet();
 		playlistSnippet.setTitle("Top Ten " + query);
 		playlistSnippet.setDescription("A playlist containing the top ten videos of " + query);
